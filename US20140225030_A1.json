@@ -1,0 +1,66 @@
+{
+    "nb": 54706,
+    "resource": "FAMPAT",
+    "executedQuery": "DOW/PA",
+    "queryId": "@XF3C14323_7F32_46B8_9125_EB7FB0779559",
+    "message": " Query: DOW/PA",
+    "fields": [
+        {
+            "name": "FAN",
+            "display": "Family Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "AP",
+            "display": "Application Data",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PN",
+            "display": "Patent Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PD",
+            "display": "Publication date",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PDF",
+            "display": "PDF",
+            "type": "link",
+            "subFields": []
+        },
+        {
+            "name": "ACT",
+            "display": "Action Taken (Eng)",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "",
+            "display": "",
+            "type": "text",
+            "subFields": []
+        }
+    ],
+    "documents": [
+{
+    "": null,
+    "FAN": "90464525",
+    "ACT": "(US20140225030)<br/>LEGAL DETAILS FOR US20140225030<br/>EED=2015-09-29 ; STATE=DEAD ; STATUS=LAPSED <br/>AD=2014-02-13 CO=US/APP SI=Pos EG=EXM <br/>Application details<br/>APC=US US14179921 APD=2014-02-13 XAP=2014US-14179921 <br/>AD=2014-02-13 CO=US/EXMR EG=ADM <br/>USPTO Examiner Name<br/>Primary Examiner: FIORITO, JAMES A<br/>AD=2014-02-13 CO=US/ART EG=ADM <br/>USPTO Art Group<br/>ART=1731 <br/>AD=2014-02-13 CO=US/ENT EG=ADM <br/>Entity Status Set to Undiscounted<br/>Business Entity Status: UNDISCOUNTED<br/>AD=2014-02-13 CO=US/AIA EG=ADM <br/>First Inventor File Indicated:<br/>AIA=Yes <br/>AD=2014-02-13 CO=US/DK EG=EXM <br/>Attorney Docket Number<br/>Docket Nbr: 14403-415<br/>AD=2014-02-13 CO=US/CUST EG=EXM <br/>Attorney/Agent Customer Number<br/>Customer Nbr: 14830<br/>AD=2014-02-13 CO=US/ENT EG=ADM <br/>Entity Status Set to Undiscounted<br/>AD=2014-03-04 CO=US/APPFILEREC EG=ADM EG=OAO <br/>Filing Receipt<br/>AD=2014-04-28 CO=US/PTARDY SI=Pos EG=EXM <br/>Patent Term Adjustment - Ready for Examination<br/>AD=2014-05-02 CO=US/RECEIPTUP EG=ADM EG=OAO <br/>Filing Receipt - Updated<br/>AD=2014-05-13 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2014-05-15 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2014-08-07 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2014-08-07 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2014-08-14 CO=US/A1 EG=EXM <br/>Application published<br/>PC=US PN=US20140225030  KD=A1 PD=2014-08-14 XPN=US20140225030 <br/>AD=2014-08-14 CO=US/PGPUBN SI=Pos EG=EXM EG=OAO <br/>PG-Pub Issue Notification<br/>AD=2014-10-08 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: HEMLOCK SEMICONDUCTOR CORPORATION, MICHIGAN<br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:DEHTIAR, MAX;HERRON, WILLIAM;LARIMER, JENNIFER;AND OTHERS;SIGNING DATES FROM 20140812 TO 20140818;REEL/FRAME:033910/0140 <br/>AD=2014-10-08 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: DOW CORNING CORPORATION, MICHIGAN<br/>EFFECTIVE DATE: EFFD=2014-08-13 <br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:HWANG, BYUNG K.;REEL/FRAME:033910/0055 <br/>AD=2014-10-20 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2015-03-04 CO=US/CTNF EG=EXM EG=OA EG=OAO <br/>Non-Final Rejection<br/>AD=2015-03-18 CO=US/103NF SI=Neg EG=EXM <br/>Non-final rejection reason 103 - obvious subject matter in claims<br/>RJD=2015-03-18 R4R=103 RJST=non final <br/>Rejected claims 1-15<br/>RJCT=US3014791 RJCT=US20070094757 <br/>AD=2015-03-18 CO=US/DBLNF SI=Neg EG=EXM <br/>Non-final rejection - Double Patenting<br/>RJD=2015-03-18 R4R=DBL RJST=non final <br/>Rejected claims 1-15<br/>RJCT=2012US 14238788 RJCT=US3014791 RJCT=US20070094757 RJCT=US20140220347 <br/>AD=2015-09-29 CO=US/ABNOA SI=Neg EG=NIF EG=OAO <br/>Abandoned -- Failure to Respond to an Office Action<br/>AD=2016-01-08 CO=US/DISCSEF EG=OAI <br/>Electronic Information Disclosure Statement",
+    "PDF": "https://www.orbit.com/GetPDF?gui=crypt&callingapp=EDOFF&key=lOckPE/DvcMlaNI3ZukLLEGd4JhdgzD3bS9pDLpcD1uWu/LOOB2MKybI/q+F60Ow&n=1&xpn=US20140225030&kind=A1",
+    "APID": "99686796",
+    "PD": "2014-08-14",
+    "id": "90464525",
+    "ID": "US20140225030_A1",
+    "REP": "US20140225030_A1",
+    "PN": "US20140225030       A1 2014-08-14 [US20140225030]",
+    "AP": "2014US-14179921 2014-02-13"
+}
+]
+}

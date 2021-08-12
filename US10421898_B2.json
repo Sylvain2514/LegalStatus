@@ -1,0 +1,66 @@
+{
+    "nb": 1,
+    "resource": "FULLPAT",
+    "executedQuery": "US20170210979/PN/AP",
+    "queryId": "@XFD7900CB_7279_4D88_97E3_9EF67DFD2345",
+    "message": " Query: US20170210979/PN/AP",
+    "fields": [
+        {
+            "name": "FAN",
+            "display": "Family Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "AP",
+            "display": "Application Data",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PN",
+            "display": "Patent Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PD",
+            "display": "Publication date",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PDF",
+            "display": "PDF",
+            "type": "link",
+            "subFields": []
+        },
+        {
+            "name": "ACT",
+            "display": "Action Taken (Eng)",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "",
+            "display": "",
+            "type": "text",
+            "subFields": []
+        }
+    ],
+    "documents": [
+        {
+            "": null,
+            "FAN": "76507629",
+            "ACT": "(US10421898)<br/>LEGAL DETAILS FOR US20170210979<br/>EED=2036-12-16 ; STATE=ALIVE ; STATUS=GRANTED <br/>AD=2016-12-16 CO=US/APP SI=Pos EG=EXM <br/>Application details<br/>APC=US US15381670 APD=2016-12-16 XAP=2016US-15381670 <br/>AD=2016-12-16 CO=US/EXMR EG=ADM <br/>USPTO Examiner Name<br/>PRIMARY EXAMINER: RUNYAN, SILVANA C<br/>AD=2016-12-16 CO=US/ART EG=ADM <br/>USPTO Art Group<br/>ART=3674 <br/>AD=2016-12-16 CO=US/ENT EG=ADM <br/>Entity Status Set to Undiscounted<br/>Business Entity Status: UNDISCOUNTED<br/>AD=2016-12-16 CO=US/AIA EG=ADM <br/>First Inventor File Indicated:<br/>AIA=Yes <br/>AD=2016-12-16 CO=US/CUST EG=EXM <br/>Attorney/Agent Customer Number<br/>Customer Nbr: 35979<br/>AD=2016-12-16 CO=US/DK EG=EXM <br/>Attorney Docket Number<br/>Docket Nbr: 0004159.005996<br/>AD=2016-12-16 CO=US/ENT EG=ADM <br/>Entity Status Set to Undiscounted<br/>AD=2017-02-16 CO=US/APPFILEREC EG=ADM EG=OAO <br/>Filing Receipt<br/>AD=2017-04-13 CO=US/APE EG=COR <br/>Preliminary amendments<br/>AD=2017-04-13 CO=US/PTARDY SI=Pos EG=EXM <br/>Patent Term Adjustment - Ready for Examination<br/>AD=2017-04-17 CO=US/RECEIPTUP EG=ADM EG=OAO <br/>Filing Receipt - Updated<br/>AD=2017-05-16 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2017-06-08 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>OWNER: CORNELL UNIVERSITY, NEW YORK<br/>EFFECTIVE DATE: EFFD=2016-12-19 <br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:FU, LILING;QI, GENGGENG;GIANNELIS, EMMANUEL P.;REEL/FRAME:042646/0354 <br/>AD=2017-06-08 CO=US/DISCSEF EG=OAI <br/>Electronic Information Disclosure Statement<br/>AD=2017-06-08 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2017-06-13 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>OWNER: ARAMCO SERVICES COMPANY, TEXAS<br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:CAIRNS, AMY J.;AL-MUNTASHERI, GHAITHAN A.;SAYED, MOHAMMED;SIGNING DATES FROM 20161219 TO 20170613;REEL/FRAME:042687/0404 <br/>AD=2017-07-27 CO=US/A1 EG=EXM <br/>Application published<br/>PC=US PN=US20170210979  KD=A1 PD=2017-07-27 XPN=US20170210979 <br/>AD=2017-07-27 CO=US/PGPUBN SI=Pos EG=EXM EG=OAO <br/>PG-Pub Issue Notification<br/>AD=2017-08-11 CO=US/POAC EG=NMC <br/>Change in Power of Attorney (May Include Associate POA)<br/>AD=2017-09-28 CO=US/PTDI EG=OAO <br/>Petition Decision - Dismissed<br/>AD=2017-09-28 CO=US/PET EG=APL <br/>Petition Entered<br/>AD=2017-10-11 CO=US/RESTREQ EG=EXM EG=COR EG=OAO <br/>Restriction/Election Requirement<br/>AD=2017-12-14 CO=US/ELC EG=EXM EG=OAI <br/>Response to Election / Restriction Filed<br/>AD=2017-12-27 CO=US/CTNF EG=EXM EG=OA EG=OAO <br/>Non-Final Rejection<br/>AD=2017-12-29 CO=US/102NF SI=Neg EG=EXM <br/>Non-final rejection reason 102 - non-novel subject matter in claims<br/>RJD=2017-12-29 R4R=102a RJST=non final <br/>Rejected claims 1-5, and 7<br/>RJCT=US20120090845 <br/>AD=2017-12-29 CO=US/103NF SI=Neg EG=EXM <br/>Non-final rejection reason 103 - obvious subject matter in claims<br/>RJD=2017-12-29 R4R=103 RJST=non final <br/>Rejected claims 6; 8; 9<br/>RJCT=US6036765 RJCT=US20120128530 <br/>AD=2018-05-29 CO=US/136G EG=OAO <br/>Request for Extension of Time - Granted<br/>AD=2018-05-29 CO=US/CTNFR EG=EXM EG=OAI <br/>Response after Non-Final Action<br/>Action Recorded: RECD=2018-05-29 <br/>AD=2018-06-15 CO=US/CTFR EG=EXM EG=OA EG=OAO <br/>Final Rejection<br/>AD=2018-06-20 CO=US/102FR SI=Neg EG=EXM <br/>Final rejection reason 102 - non-novel subject matter in claims<br/>RJD=2018-06-20 R4R=102a RJST=final <br/>Rejected claims 1-5 and 7<br/>RJCT=US20120090845 <br/>AD=2018-06-20 CO=US/112FR SI=Neg EG=EXM <br/>Final rejection reason 112 - subject matter in claims not properly defined<br/>RJD=2018-06-20 R4R=112b RJST=final <br/>Rejected claims 1<br/>AD=2018-06-20 CO=US/103FR SI=Neg EG=EXM <br/>Final rejection reason 103 - obvious subject matter in claims<br/>RJD=2018-06-20 R4R=103 RJST=final <br/>Rejected claims 8<br/>RJCT=US20120128530 <br/>AD=2018-09-13 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>OWNER: SAUDI ARABIAN OIL COMPANY, SAUDI ARABIA<br/>EFFECTIVE DATE: EFFD=2018-08-17 <br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:ARAMCO SERVICES COMPANY;REEL/FRAME:046860/0274 <br/>AD=2018-12-18 CO=US/RCEX EG=EXM EG=RCE EG=OAI <br/>Request for Continued Examination (RCE)<br/>Action Recorded: RECD=2018-12-18 <br/>AD=2018-12-19 CO=US/RCEX EG=EXM EG=RCE EG=OAI <br/>Request for Continued Examination (RCE)<br/>AD=2018-12-19 CO=US/136G EG=OAO <br/>Request for Extension of Time - Granted<br/>AD=2018-12-20 CO=US/DRCECAP EG=RCE EG=OAO <br/>Disposal for a RCE / CPA / R129<br/>AD=2019-01-02 CO=US/CTNF EG=EXM EG=OA EG=OAO <br/>Non-Final Rejection<br/>AD=2019-01-08 CO=US/112NF SI=Neg EG=EXM <br/>Non-final rejection reason 112 - subject matter in claims not properly defined<br/>RJD=2019-01-08 R4R=112b RJST=non final <br/>Rejected claims 4; 6<br/>AD=2019-01-08 CO=US/103NF SI=Neg EG=EXM <br/>Non-final rejection reason 103 - obvious subject matter in claims<br/>RJD=2019-01-08 R4R=103 RJST=non final <br/>Rejected claims 1-4, and 7; 8<br/>RJCT=US20120090845 RJCT=US20020165305 RJCT=US20140202685 RJCT=US20120128530 <br/>AD=2019-05-08 CO=US/136G EG=OAO <br/>Request for Extension of Time - Granted<br/>AD=2019-05-08 CO=US/CTNFR EG=EXM EG=OAI <br/>Response after Non-Final Action<br/>Action Recorded: RECD=2019-05-08 <br/>AD=2019-05-30 CO=US/NOAM SI=Pos EG=EXM EG=OAO <br/>Mail Notice of Allowance<br/>AD=2019-08-13 CO=US/APRDY SI=Pos EG=EXM <br/>Application Is Considered Ready for Issue<br/>AD=2019-09-04 CO=US/PAT SI=Pos EG=PIF <br/>Patented Case<br/>AD=2019-09-04 CO=US/ISSM SI=Pos EG=EXM EG=OAO EG=RES <br/>Issue Notification Mailed<br/>AD=2019-09-24 CO=US/B2 SI=Pos EG=PIF <br/>Granted patent as second publication<br/>PC=US PN=US10421898  KD=B2 PD=2019-09-24 XPN=US10421898 <br/>AD=2019-09-24 CO=US/354 SI=Pos EG=SPC <br/>Patent term extended under  35 U.S.C 154(b) until/for<br/>Delays (A,B,C): 0; Overlap Delays: 0; Non Overlap Delays: 0; <br/>PTO Office Delays: 0; Applicant Delays: 181; Adjustment total: XDAY=0",
+            "PDF": "https://www.orbit.com/GetPDF?gui=crypt&callingapp=EDOFF&key=f5oUxLKAEQpqK/ved3JYQFvfaQTfGAcA4Ek51U4IJAuVbSu34oAMgA==&n=1&xpn=US10421898&kind=B2",
+            "APID": "123845935",
+            "PD": "2017-07-27<br/>2019-09-24",
+            "id": "76507629",
+            "ID": "US10421898_B2",
+            "REP": "US10421898_B2",
+            "PN": "US10421898          B2 2019-09-24 [US10421898]<br/>US20170210979       A1 2017-07-27 [US20170210979]",
+            "AP": "2016US-15381670 2016-12-16"
+        }
+    ]
+}

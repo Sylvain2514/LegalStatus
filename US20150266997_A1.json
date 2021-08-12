@@ -1,0 +1,66 @@
+{
+    "nb": 54706,
+    "resource": "FAMPAT",
+    "executedQuery": "DOW/PA",
+    "queryId": "@XF3C14323_7F32_46B8_9125_EB7FB0779559",
+    "message": " Query: DOW/PA",
+    "fields": [
+        {
+            "name": "FAN",
+            "display": "Family Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "AP",
+            "display": "Application Data",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PN",
+            "display": "Patent Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PD",
+            "display": "Publication date",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PDF",
+            "display": "PDF",
+            "type": "link",
+            "subFields": []
+        },
+        {
+            "name": "ACT",
+            "display": "Action Taken (Eng)",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "",
+            "display": "",
+            "type": "text",
+            "subFields": []
+        }
+    ],
+    "documents": [
+{
+    "": null,
+    "FAN": "90464046",
+    "ACT": "(US20150266997)<br/>LEGAL DETAILS FOR US20150266997<br/>EED=2018-08-24 ; STATE=DEAD ; STATUS=LAPSED <br/>AD=2015-06-09 CO=US/APP SI=Pos EG=EXM <br/>Application details<br/>APC=US US14734093 APD=2015-06-09 XAP=2015US-14734093 <br/>AD=2015-06-09 CO=US/EXMR EG=ADM <br/>USPTO Examiner Name<br/>Primary Examiner: LEE, DORIS L<br/>AD=2015-06-09 CO=US/ART EG=ADM <br/>USPTO Art Group<br/>ART=1764 <br/>AD=2015-06-09 CO=US/ENT EG=ADM <br/>Entity Status Set to Undiscounted<br/>Business Entity Status: UNDISCOUNTED<br/>AD=2015-06-09 CO=US/AIA EG=ADM <br/>First Inventor File Indicated:<br/>AIA=No <br/>AD=2015-06-09 CO=US/DK EG=EXM <br/>Attorney Docket Number<br/>Docket Nbr: 65476 US  (1062-103D1)<br/>AD=2015-06-09 CO=US/CUST EG=EXM <br/>Attorney/Agent Customer Number<br/>Customer Nbr: 62583<br/>AD=2015-06-09 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2015-06-09 CO=US/PTARDY SI=Pos EG=EXM <br/>Patent Term Adjustment - Ready for Examination<br/>AD=2015-06-09 CO=US/ENT EG=ADM <br/>Entity Status Set to Undiscounted<br/>AD=2015-06-19 CO=US/APPFILEREC EG=ADM EG=OAO <br/>Filing Receipt<br/>AD=2015-08-05 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2015-09-21 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2015-09-24 CO=US/A1 EG=EXM <br/>Application published<br/>PC=US PN=US20150266997  KD=A1 PD=2015-09-24 XPN=US20150266997 <br/>AD=2015-09-24 CO=US/PGPUBN SI=Pos EG=EXM EG=OAO <br/>PG-Pub Issue Notification<br/>AD=2015-11-03 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2016-01-06 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2016-03-22 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2016-06-02 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2016-09-19 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2017-02-08 CO=US/CTNF EG=EXM EG=OA EG=OAO <br/>Non-Final Rejection<br/>AD=2017-02-14 CO=US/103NF SI=Neg EG=EXM <br/>Non-final rejection reason 103 - obvious subject matter in claims<br/>RJD=2017-02-14 R4R=103a RJST=non final <br/>Rejected claims 1-12 and 20; 13-19<br/>RJCT=US4667013 <br/>AD=2017-05-15 CO=US/CTNFR EG=EXM EG=OAI <br/>Response after Non-Final Action<br/>AD=2017-05-15 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2017-07-28 CO=US/CTFR EG=EXM EG=OA EG=OAO <br/>Final Rejection<br/>AD=2017-08-02 CO=US/112FR SI=Neg EG=EXM <br/>Final rejection reason 112 - subject matter in claims not properly defined<br/>RJD=2017-08-02 R4R=112d RJST=final <br/>Rejected claims 2<br/>AD=2017-08-02 CO=US/103FR SI=Neg EG=EXM <br/>Final rejection reason 103 - obvious subject matter in claims<br/>RJD=2017-08-02 R4R=103a RJST=final <br/>Rejected claims 1-12 and 20; 13-19<br/>RJCT=US4667013 <br/>AD=2017-08-08 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2017-11-02 CO=US/CTFAR EG=EXM EG=OAI <br/>Response after Final Action<br/>AD=2017-11-09 CO=US/CTAV EG=OAO <br/>Advisory Action (PTOL-303)<br/>AD=2017-11-21 CO=US/136G EG=OAO <br/>Request for Extension of Time - Granted<br/>AD=2017-11-21 CO=US/RCEX EG=EXM EG=RCE EG=OAI <br/>Request for Continued Examination (RCE)<br/>AD=2017-11-28 CO=US/DRCECAP EG=RCE EG=OAO <br/>Disposal for a RCE / CPA / R129<br/>AD=2018-01-24 CO=US/CTNF EG=EXM EG=OA EG=OAO <br/>Non-Final Rejection<br/>AD=2018-01-29 CO=US/103NF SI=Neg EG=EXM <br/>Non-final rejection reason 103 - obvious subject matter in claims<br/>RJD=2018-01-29 R4R=103a RJST=non final <br/>Rejected claims 1 and 3-12; 13-19<br/>RJCT=US3186958 RJCT=US4667013 <br/>AD=2018-08-24 CO=US/ABNOA SI=Neg EG=NIF EG=OAO <br/>Abandoned -- Failure to Respond to an Office Action",
+    "PDF": "https://www.orbit.com/GetPDF?gui=crypt&callingapp=EDOFF&key=lOckPE/DvcN3xdRVyPoFW8/J3aSBKS3mbS9pDLpcD1uWu/LOOB2MKybI/q+F60Ow&n=1&xpn=US20150266997&kind=A1",
+    "APID": "104687937",
+    "PD": "2015-09-24",
+    "id": "90464046",
+    "ID": "US20150266997_A1",
+    "REP": "US20150266997_A1",
+    "PN": "US20150266997       A1 2015-09-24 [US20150266997]",
+    "AP": "2015US-14734093 2015-06-09"
+}
+]
+}

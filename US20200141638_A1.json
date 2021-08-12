@@ -1,0 +1,66 @@
+{
+    "nb": 54706,
+    "resource": "FAMPAT",
+    "executedQuery": "DOW/PA",
+    "queryId": "@XF3C14323_7F32_46B8_9125_EB7FB0779559",
+    "message": " Query: DOW/PA",
+    "fields": [
+        {
+            "name": "FAN",
+            "display": "Family Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "AP",
+            "display": "Application Data",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PN",
+            "display": "Patent Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PD",
+            "display": "Publication date",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PDF",
+            "display": "PDF",
+            "type": "link",
+            "subFields": []
+        },
+        {
+            "name": "ACT",
+            "display": "Action Taken (Eng)",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "",
+            "display": "",
+            "type": "text",
+            "subFields": []
+        }
+    ],
+    "documents": [
+      {
+          "": null,
+          "FAN": "64559919",
+          "ACT": "(US20200141638)<br/>LEGAL DETAILS FOR US20200141638<br/>EED=2028-05-16 ; STATE=ALIVE ; STATUS=PENDING <br/>AD=2020-01-03 CO=US/APP SI=Pos EG=EXM <br/>Application details<br/>APC=US US16733982 APD=2020-01-03 XAP=2020US-16733982 <br/>AD=2020-01-03 CO=US/EXMR EG=ADM <br/>USPTO Examiner Name<br/>PRIMARY EXAMINER: MENGESHA, WEBESHET<br/>AD=2020-01-03 CO=US/ART EG=ADM <br/>USPTO Art Group<br/>ART=3763 <br/>AD=2020-01-03 CO=US/DK EG=EXM <br/>Attorney Docket Number<br/>Docket Nbr: 2103-00922<br/>AD=2020-01-03 CO=US/SMALL EG=ADM <br/>Appl Has Filed a Verified Statement of Micro to Small Entity Status<br/>Business Entity Status: SMALL<br/>AD=2020-01-03 CO=US/AIA EG=ADM <br/>First Inventor File Indicated:<br/>AIA=No <br/>AD=2020-01-03 CO=US/CUST EG=EXM <br/>Attorney/Agent Customer Number<br/>Customer Nbr: 30652<br/>AD=2020-01-03 CO=US/PTARDY SI=Pos EG=EXM <br/>Patent Term Adjustment - Ready for Examination<br/>AD=2020-01-03 CO=US/TR1RQ EG=ACL EG=EXM <br/>TrackOne Accelerated Request<br/>AD=2020-01-03 CO=US/PET EG=APL <br/>Petition Entered<br/>AD=2020-01-03 CO=US/ENT EG=ADM <br/>Entity Status Set to Undiscounted<br/>AD=2020-01-24 CO=US/SMALL EG=ADM <br/>Appl Has Filed a Verified Statement of Micro to Small Entity Status<br/>AD=2020-01-28 CO=US/APPFILEREC EG=ADM EG=OAO <br/>Filing Receipt<br/>AD=2020-02-06 CO=US/PDTG EG=ACL EG=EXM EG=OAO <br/>Petition Decision Track 1 Grant<br/>AD=2020-02-07 CO=US/TR1RQG EG=ACL EG=EXM <br/>TrackOne Accelerated Request Granted<br/>AD=2020-02-07 CO=US/PETDGMS EG=ACL <br/>Record Petition Decision of Granted to Make Special<br/>AD=2020-02-20 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>OWNER: PILOT ENERGY SOLUTIONS, LLC, TEXAS<br/>EFFECTIVE DATE: EFFD=2013-07-15 <br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:PRIM, ERIC;REEL/FRAME:051870/0119 <br/>AD=2020-02-20 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2020-02-21 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2020-02-26 CO=US/POAC EG=NMC <br/>Change in Power of Attorney (May Include Associate POA)<br/>AD=2020-03-08 CO=US/CTNF EG=EXM EG=OA EG=OAO <br/>Non-Final Rejection<br/>AD=2020-03-10 CO=US/112NF SI=Neg EG=EXM <br/>Non-final rejection reason 112 - subject matter in claims not properly defined<br/>RJD=2020-03-10 R4R=112b RJST=non final <br/>Rejected claims 1-20<br/>AD=2020-03-10 CO=US/103NF SI=Neg EG=EXM <br/>Non-final rejection reason 103 - obvious subject matter in claims<br/>RJD=2020-03-10 R4R=103a RJST=non final <br/>Rejected claims 1-20<br/>RJCT=US4563202 RJCT=US4770683 RJCT=US3090683 <br/>AD=2020-05-07 CO=US/A1 EG=EXM <br/>Application published<br/>PC=US PN=US20200141638  KD=A1 PD=2020-05-07 XPN=US20200141638 <br/>AD=2020-05-07 CO=US/PGPUBN SI=Pos EG=EXM EG=OAO <br/>PG-Pub Issue Notification<br/>AD=2020-05-19 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2020-06-08 CO=US/CTNFR EG=EXM EG=OAI <br/>Response after Non-Final Action<br/>AD=2020-06-08 CO=US/DISCSEF EG=OAI <br/>Electronic Information Disclosure Statement<br/>AD=2020-06-08 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2020-06-12 CO=US/TR1ON EG=ACL EG=EXM <br/>TrackOne Accelerated ON<br/>AD=2020-06-15 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2020-06-22 CO=US/CTFR EG=EXM EG=OA EG=OAO <br/>Final Rejection<br/>AD=2020-06-25 CO=US/103FR SI=Neg EG=EXM <br/>Final rejection reason 103 - obvious subject matter in claims<br/>RJD=2020-06-25 R4R=103a RJST=final <br/>Rejected claims 1, 2, 4-8, 10-17 and 19-23<br/>RJCT=US4720294 RJCT=US3090683 <br/>AD=2020-08-21 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2020-08-21 CO=US/CTFAR EG=EXM EG=OAI <br/>Response after Final Action<br/>AD=2020-08-25 CO=US/CTAV EG=OAO <br/>Advisory Action (PTOL-303)<br/>AD=2020-09-24 CO=US/RCEX EG=EXM EG=RCE EG=OAI <br/>Request for Continued Examination (RCE)<br/>AD=2020-09-28 CO=US/DRCECAP EG=RCE EG=OAO <br/>Disposal for a RCE / CPA / R129<br/>AD=2020-11-30 CO=US/DISCSEF EG=OAI <br/>Electronic Information Disclosure Statement<br/>AD=2020-11-30 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed<br/>AD=2021-06-03 CO=US/IDS EG=EXM EG=OAI <br/>Information Disclosure Statement Filed",
+          "PDF": "https://www.orbit.com/GetPDF?gui=crypt&callingapp=EDOFF&key=lOckPE/DvcMDd0j50j4UfrxtUVS6odf4bS9pDLpcD1uWu/LOOB2MKybI/q+F60Ow&n=1&xpn=US20200141638&kind=A1",
+          "APID": "142343814",
+          "PD": "2020-05-07",
+          "id": "64559919",
+          "ID": "US20200141638_A1",
+          "REP": "US20200141638_A1",
+          "PN": "US20200141638       A1 2020-05-07 [US20200141638]",
+          "AP": "2020US-16733982 2020-01-03"
+      }
+    ]
+}

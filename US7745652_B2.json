@@ -1,0 +1,66 @@
+{
+    "nb": 54706,
+    "resource": "FAMPAT",
+    "executedQuery": "DOW/PA",
+    "queryId": "@XF3C14323_7F32_46B8_9125_EB7FB0779559",
+    "message": " Query: DOW/PA",
+    "fields": [
+        {
+            "name": "FAN",
+            "display": "Family Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "AP",
+            "display": "Application Data",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PN",
+            "display": "Patent Number",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PD",
+            "display": "Publication date",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "PDF",
+            "display": "PDF",
+            "type": "link",
+            "subFields": []
+        },
+        {
+            "name": "ACT",
+            "display": "Action Taken (Eng)",
+            "type": "text",
+            "subFields": []
+        },
+        {
+            "name": "",
+            "display": "",
+            "type": "text",
+            "subFields": []
+        }
+    ],
+    "documents": [
+{
+    "": null,
+    "FAN": "90165770",
+    "ACT": "(US7745652)<br/>LEGAL DETAILS FOR US20090143544<br/>EED=2023-06-15 ; STATE=ALIVE ; STATUS=GRANTED <br/>AD=2008-12-05 CO=US/APP SI=Pos EG=EXM <br/>Application details<br/>APC=US US12328868 APD=2008-12-05 XAP=2008US-12328868 <br/>AD=2008-12-05 CO=US/EXMR EG=ADM <br/>USPTO Examiner Name<br/>Primary Examiner: CARR, DEBORAH D<br/>AD=2008-12-05 CO=US/ART EG=ADM <br/>USPTO Art Group<br/>ART=1621 <br/>AD=2008-12-05 CO=US/ENT EG=ADM <br/>Entity Status Set to Undiscounted<br/>Business Entity Status: UNDISCOUNTED<br/>AD=2008-12-05 CO=US/AIA EG=ADM <br/>First Inventor File Indicated:<br/>AIA=No <br/>AD=2008-12-05 CO=US/DK EG=EXM <br/>Attorney Docket Number<br/>Docket Nbr: 61829B US<br/>AD=2008-12-05 CO=US/CUST EG=EXM <br/>Attorney/Agent Customer Number<br/>Customer Nbr: 109<br/>AD=2008-12-05 CO=US/APE EG=COR <br/>Preliminary amendments<br/>AD=2009-01-21 CO=US/APPFILEREC EG=ADM EG=OAO <br/>Filing Receipt<br/>AD=2009-01-21 CO=US/INCD EG=EXM EG=OAO <br/>Notice Mailed--Application Incomplete--Filing Date Assigned<br/>AD=2009-02-26 CO=US/RECEIPTUP EG=ADM EG=OAO <br/>Filing Receipt - Updated<br/>AD=2009-06-04 CO=US/A1 EG=EXM <br/>Application published<br/>PC=US PN=US20090143544  KD=A1 PD=2009-06-04 XPN=US20090143544 <br/>AD=2009-06-04 CO=US/PGPUBN SI=Pos EG=EXM EG=OAO <br/>PG-Pub Issue Notification<br/>AD=2010-02-21 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2010-03-29 CO=US/DOCK SI=Pos EG=EXM <br/>Case Docketed to Examiner<br/>AD=2010-04-05 CO=US/NOAM SI=Pos EG=EXM EG=OAO <br/>Mail Notice of Allowance<br/>AD=2010-04-05 CO=US/NOAM SI=Pos EG=EXM EG=OAO <br/>Mail Notice of Allowance<br/>Action Recorded: RECD=2010-04-05 <br/>AD=2010-05-18 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: DOW GLOBAL TECHNOLOGIES INC.,MICHIGAN<br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:LYSENKO, ZENON;MAUGHON, BOB R.;BICERANO, JOE;AND OTHERS;SIGNING DATES FROM 20020725 TO 20021021;REEL/FRAME:024403/0636 <br/>AD=2010-05-18 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: UNION CARBIDE CHEMICALS & PLASTICS TECHNOLOGY CORP<br/>EFFECTIVE DATE: EFFD=2002-11-20 <br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:MAHER, JOHN MICHAEL;REEL/FRAME:024403/0847 <br/>AD=2010-05-18 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: DOW GLOBAL TECHNOLOGIES INC.,MICHIGAN<br/>EFFECTIVE DATE: EFFD=2003-01-09 <br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:UNION CARBIDE CHEMICALS & PLASTICS TECHNOLOGY CORPORATION;REEL/FRAME:024403/0941 <br/>AD=2010-05-18 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: DOW GLOBAL TECHNOLOGIES INC.,MICHIGAN<br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNORS:LYSENKO, ZENON;MAUGHON, BOB R.;BICERANO, JOE;AND OTHERS;SIGNING DATES FROM 20030507 TO 20030612;REEL/FRAME:024404/0399 <br/>AD=2010-05-18 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: UNION CARBIDE CHEMICALS & PLASTICS TECHNOLOGY CORP<br/>EFFECTIVE DATE: EFFD=2003-07-14 <br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:MAHER, JOHN MICHAEL;REEL/FRAME:024404/0448 <br/>AD=2010-05-18 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: DOW GLOBAL TECHNOLOGIES INC.,MICHIGAN<br/>EFFECTIVE DATE: EFFD=2004-08-25 <br/>ASSIGNMENT OF ASSIGNORS INTEREST;ASSIGNOR:UNION CARBIDE CHEMICALS & PLASTICS TECHNOLOGY CORPORATION;REEL/FRAME:024404/0473 <br/>AD=2010-05-21 CO=US/APRDY SI=Pos EG=EXM <br/>Application Is Considered Ready for Issue<br/>AD=2010-06-09 CO=US/ISSM SI=Pos EG=EXM EG=OAO EG=RES <br/>Issue Notification Mailed<br/>AD=2010-06-09 CO=US/PAT SI=Pos EG=PIF <br/>Patented Case<br/>AD=2010-06-29 CO=US/B2 SI=Pos EG=PIF <br/>Granted patent as second publication<br/>PC=US PN=US07745652  KD=B2 PD=2010-06-29 XPN=US7745652 <br/>AD=2010-06-29 CO=US/354 SI=Pos EG=SPC <br/>Patent term extended under  35 U.S.C 154(b) until/for<br/>Delays (A,B,C): 59; Overlap Delays: 0; Non Overlap Delays: 59; <br/>PTO Office Delays: 0; Applicant Delays: 0; Adjustment total: XDAY=59 <br/>AD=2012-11-27 CO=US/CC EG=COR EG=RES <br/>Certificate of Correction - Post Issue Communication<br/>AD=2013-07-09 CO=US/NMFP EG=PAY <br/>Publication of First Notice of Maintenance Fees Payable.<br/>PAYMENT NOTICE YEAR: YR=3 <br/>AD=2013-11-27 CO=US/FPAY SI=Pos EG=PIF EG=PAY <br/>Fee payment recorded<br/>PAYMENT DATE: PAY=2013-11-27 ; PAYMENT YEAR: YR=4 <br/>AD=2017-07-11 CO=US/NMFP EG=PAY <br/>Publication of First Notice of Maintenance Fees Payable.<br/>PAYMENT NOTICE YEAR: YR=7 <br/>AD=2017-09-11 CO=US/AS EG=NMC EG=RAS <br/>Assignment<br/>Owner: DOW GLOBAL TECHNOLOGIES LLC, MICHIGAN<br/>EFFECTIVE DATE: EFFD=2010-12-31 <br/>CHANGE OF NAME;ASSIGNOR:DOW GLOBAL TECHNOLOGIES INC.;REEL/FRAME:043812/0216 <br/>AD=2017-12-14 CO=US/MAFP SI=Pos EG=PAY <br/>Maintenance Fee Payment<br/>PAYMENT DATE: PAY=2017-12-14 ; PAYMENT YEAR: YR=8 <br/>PAYMENT OF MAINTENANCE FEE, 8TH YEAR, LARGE ENTITY (ORIGINAL EVENT CODE: M1552) <br/>AD=2017-12-14 CO=US/M1552 EG=PAY <br/>Payment of Maintenance Fee, 8th Year, Large Entity",
+    "PDF": "https://www.orbit.com/GetPDF?gui=crypt&callingapp=EDOFF&key=A7Pyey6r8B37+iuUtFbLfEDJGjHFOylz2vqDC9fjq9vhYXW+Am/elg==&n=1&xpn=US7745652&kind=B2",
+    "APID": "62128461",
+    "PD": "2009-06-04<br/>2010-06-29",
+    "id": "90165770",
+    "ID": "US7745652_B2",
+    "REP": "US7745652_B2",
+    "PN": "US7745652           B2 2010-06-29 [US7745652]<br/>US20090143544       A1 2009-06-04 [US20090143544]",
+    "AP": "2008US-12328868 2008-12-05"
+}
+]
+}
