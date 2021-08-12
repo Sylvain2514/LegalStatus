@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+<!--
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>-->
+  <style>
+    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+
+    #map {
+      border: 2px #555 dashed;
+      width: 1200px;
+      height: 800px;
+    }
+
+    .dashed {
+      border: 1px #555 dashed;
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <script>
+
+var margin = {
+  top: -5,
+  right: -5,
+  bottom: -5,
+  left: -5
+};
+var width = 960 - margin.left - margin.right,
+  height = 800 - margin.top - margin.bottom;
+
+
+var svg = d3.select("#map").append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+
+
+var group = svg.append("g");
+var defs = svg.append('defs');
+defs.append("svg:marker")
+    .attr("id", "arrowBlack")
+    .attr("viewBox", "0 0 10 10")
+    .attr("refX", "10")
+    .attr("refY", "5")
+    .attr("markerUnits", "strokeWidth")
+    .attr("markerWidth", "20")
+    .attr("markerHeight", "10")
+    .attr("orient", "auto")
+    .append("svg:path")
+    .attr("d", "M 0 0 L 10 5 L 0 10 z")
+    .attr("fill", "#000");
+
+
+    d3.json('mock.json')
+      .then(function(data){
+        group.selectAll(".node")
+            .data(data.nodes)
+            .enter()
+                .append("rect")
+                .attr("x", d => d.x)
+                .attr("y", d => d.y)
+                .attr("width", d => d.width)
+                .attr("height", d => d.height)
+                .attr("stroke-opacity", d=> d.opacity)
+                .attr('stroke', 'black')
+                .attr('fill', 'none')
+                .attr('stroke-dasharray', d => d.borderstyle);
+
+        group.selectAll(".node")
+            .data(data.nodes)
+            .enter()
+                .append('text')
+                .attr("x", d => (+d.x + 10))
+                .attr("y", d => (+d.y + 20))
+                .attr('stroke', 'black')
+                .attr("fill-opacity", d=> d.opacity)
+                .attr("stroke-opacity", d=> d.opacity)
+                .style("font-size", 15)
+                .text(d=>d.name)
+
+          group.selectAll(".edgepath")
+            .data(data.links)
+            .enter()
+                .append('path')
+                .attr("d", d => intersectRectanglePath(data.nodes[d.source],data.nodes[d.target]))
+                .attr("class", "edgepath")
+                .attr("fill-opacity", 1)
+                .attr("stroke-opacity", 1)
+                .attr("stroke", "black")
+                .attr("fill", "black")
+                .attr("marker-end", "url(#arrowBlack)")
+                .attr("id", function(d, i) {
+                  return 'edgepath' + i
+                })
+
+          svg.selectAll(".namepath")
+            .data(data.links)
+            .enter()
+                .append('text')
+                .attr("y",10)
+                .attr('stroke', 'black')
+                .attr("class", "namepath")
+                .attr("text-anchor", "middle")
+                .attr("fill-opacity", d=> d.opacity)
+                .attr("stroke-opacity", d=> d.opacity)
+                .style("font-size", 8)
+                .text(d=>d.name)
+                .attr("transform", function(d) {
+                    var dx = (data.nodes[d.target].x *1 + data.nodes[d.target].width/2 - data.nodes[d.source].x*1 - data.nodes[d.source].width/2),
+                        dy = (data.nodes[d.target].y *1 + data.nodes[d.target].height/2 - data.nodes[d.source].y*1 - data.nodes[d.source].height/2);
+                    var deg = 180 / Math.PI * Math.atan2(dy, dx);
+                    if (deg > 90 || deg < -90)
+                      deg += 180
+
+                    x = (intersectRectangle(data.nodes[d.source], data.nodes[d.target]).intersectStartX + 5*intersectRectangle(data.nodes[d.source], data.nodes[d.target]).intersectEndX)/6;
+                    y = (intersectRectangle(data.nodes[d.source], data.nodes[d.target]).intersectStartY + 5*intersectRectangle(data.nodes[d.source], data.nodes[d.target]).intersectEndY)/6;
+                    return "translate(" + x + ", " + y + ") rotate(" + deg + ")";
+                })
+
+            function middleRectangle(node){
+              return {
+                "x": +node.x + node.width/2,
+                "y": +node.y + node.height/2
+              }
+            }
+            function goToLimit(value, limit){
+              limit = Math.abs(limit)
+              if (value > limit)
+                value = limit;
+              else if (value < -limit)
+                value = -limit;
+              return value
+            }
+            function intersectRectangle(nodeStart, nodeEnd){
+              xStart = middleRectangle(nodeStart).x;
+              yStart = middleRectangle(nodeStart).y;
+
+              xEnd = middleRectangle(nodeEnd).x;
+              yEnd = middleRectangle(nodeEnd).y;
+
+              intersectStartX = (xEnd-xStart) * nodeStart.height/2 * 1/Math.abs(yEnd-yStart)
+              intersectStartX = goToLimit(intersectStartX, nodeStart.width/2)
+              intersectStartX += xStart;
+
+              intersectStartY = (yEnd-yStart) * nodeStart.width/2 * 1/Math.abs(xEnd-xStart)
+              intersectStartY = goToLimit(intersectStartY, nodeStart.height/2)
+              intersectStartY += yStart;
+
+              intersectEndX = (xStart-xEnd) * nodeEnd.height/2 * 1/Math.abs(yEnd-yStart)
+              intersectEndX = goToLimit(intersectEndX, nodeEnd.width/2)
+              intersectEndX += xEnd;
+
+              intersectEndY = (yStart-yEnd) * nodeEnd.width/2 * 1/Math.abs(xEnd-xStart)
+              intersectEndY = goToLimit(intersectEndY, nodeEnd.height/2)
+              intersectEndY += yEnd;
+
+              pathCoordinates = 'M ' + intersectStartX + ' ' + intersectStartY + ' L ' + intersectEndX + ' ' + intersectEndY;
+
+              return {
+                "intersectStartX": intersectStartX,
+                "intersectStartY": intersectStartY,
+                "intersectEndX": intersectEndX,
+                "intersectEndY": intersectEndY
+              };
+            }
+            function intersectRectanglePath(nodeStart, nodeEnd){
+              coord = intersectRectangle(nodeStart,nodeEnd);
+              pathCoordinates = 'M ' + coord.intersectStartX + ' ' + coord.intersectStartY + ' L ' + coord.intersectEndX + ' ' + coord.intersectEndY;
+              return pathCoordinates;
+            }
+
+        })
+      .catch(function(error) {
+          console.log(error);
+        });
+
+  </script>
+
+</body>
