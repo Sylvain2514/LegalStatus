@@ -1,0 +1,23 @@
+[
+{"type":"header","version":"5.1.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"legalstatus"},
+{"type":"table","name":"Node","database":"legalstatus","data":
+[
+{"id":"1","name":"Application filed","x":"30","y":"10","linestarts":"0","lineends":"0","dashed":"0","width":"200","height":"60","country_specific":"0","specific_to":""},
+{"id":"2","name":"IDS Filed","x":"30","y":"300","linestarts":"0","lineends":"0","dashed":"0","width":"100","height":"60","country_specific":"1","specific_to":"US"},
+{"id":"3","name":"Party data change","x":"30","y":"400","linestarts":"0","lineends":"0","dashed":"0","width":"150","height":"60","country_specific":"0","specific_to":""},
+{"id":"4","name":"Examination started","x":"30","y":"100","linestarts":"1","lineends":"0","dashed":"0","width":"200","height":"60","country_specific":"0","specific_to":""},
+{"id":"5","name":"Pre-grant challenges","x":"370","y":"10","linestarts":"0","lineends":"0","dashed":"1","width":"350","height":"300","country_specific":"0","specific_to":""},
+{"id":"6","name":"Allowance process","x":"370","y":"310","linestarts":"0","lineends":"0","dashed":"1","width":"350","height":"100","country_specific":"0","specific_to":""},
+{"id":"7","name":"Post-grant challenges","x":"370","y":"410","linestarts":"0","lineends":"0","dashed":"1","width":"350","height":"200","country_specific":"0","specific_to":""},
+{"id":"8","name":"Abandon","x":"820","y":"310","linestarts":"1","lineends":"1","dashed":"0","width":"150","height":"60","country_specific":"0","specific_to":""},
+{"id":"9","name":"Non Fin Rejection","x":"390","y":"60","linestarts":"1","lineends":"1","dashed":"0","width":"130","height":"30","country_specific":"1","specific_to":"US"},
+{"id":"10","name":"Final Rejection","x":"390","y":"120","linestarts":"1","lineends":"1","dashed":"0","width":"130","height":"30","country_specific":"1","specific_to":"US"},
+{"id":"11","name":"Response to Non-F","x":"570","y":"60","linestarts":"1","lineends":"1","dashed":"0","width":"130","height":"30","country_specific":"1","specific_to":"US"},
+{"id":"12","name":"Response to Final","x":"570","y":"120","linestarts":"1","lineends":"1","dashed":"0","width":"130","height":"30","country_specific":"1","specific_to":"US"},
+{"id":"13","name":"RCE","x":"470","y":"180","linestarts":"1","lineends":"1","dashed":"0","width":"150","height":"30","country_specific":"1","specific_to":"US"},
+{"id":"14","name":"Notice of allowance","x":"390","y":"350","linestarts":"1","lineends":"1","dashed":"0","width":"130","height":"30","country_specific":"1","specific_to":"US"},
+{"id":"15","name":"Granted patent","x":"570","y":"350","linestarts":"1","lineends":"1","dashed":"0","width":"130","height":"30","country_specific":"1","specific_to":"US"}
+]
+}
+]
